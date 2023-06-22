@@ -14,7 +14,7 @@ pipeline {
 	     stage ("create-file2") {
 		 steps {
 		 dir ("/data/wsp2") {
-		 sh ""touch file2
+		 sh "touch file2"
 		        }
 		       }
 		 
